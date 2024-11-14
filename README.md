@@ -13,7 +13,7 @@ Welcome to my collection of C programming projects! This repository includes a s
 
 **Description**: A simple program that takes two numbers as input and outputs their sum. 
 
-**Concepts Covered**: Input/Output, Arithmetic Operations
+**Concepts Covered**: Binary Addition, Bitwise Operations, Logic Gates
 
 ### **2. BMI Calculator**
 
