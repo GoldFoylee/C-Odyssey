@@ -1,6 +1,9 @@
-![C Logo](https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png)                                                      
-
 # **C Programming Projects!**
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="200">
+</div>
+
 
 Welcome to my collection of C programming projects! This repository includes a series of simple yet impactful programs written in the C programming language. These programs cover a wide range of fundamental concepts, such as loops, conditionals, functions, and more. Each program is designed to solve a specific problem or perform a particular task, and they serve as a great way to demonstrate my growing knowledge of C.
 
