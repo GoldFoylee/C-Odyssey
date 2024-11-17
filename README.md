@@ -110,3 +110,9 @@ Welcome to my collection of C programming projects! This repository includes a s
 **Description**: This program takes an array as input, and then outputs the elements of the array in both the original and reversed order.
 
 **Concepts Covered**: Array, Looping, Input/Output, Array Manipulation
+
+### **18. Check for Repeated Digits in a Number**
+
+**Description**: This program checks whether a given number has any repeated digits. It uses an array to keep track of the digits that have already appeared. If a digit repeats, the program outputs "Repeated," otherwise it outputs "Not repeated."
+
+**Concepts Covered**: Arrays, Loops, Modulus Operator, Input/Output, Conditionals
