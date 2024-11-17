@@ -104,3 +104,9 @@ Welcome to my collection of C programming projects! This repository includes a s
 **Description**: A program that converts a given temperature in Celsius to Fahrenheit and vice versa.
 
 **Concepts Covered**: User Input, Arithmetic Operations
+
+### **17. Reverse the Elements of an Array**
+
+**Description**: This program takes an array as input, and then outputs the elements of the array in both the original and reversed order.
+
+**Concepts Covered**: Array, Looping, Input/Output, Array Manipulation
