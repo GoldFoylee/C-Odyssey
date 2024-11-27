@@ -2,10 +2,12 @@
 
 void main()
 {
-    int n, a[100];
+    int n;
 
     printf("Enter the size of the array ");
     scanf("%d", &n);
+
+    int arr[n];
 
     for (int i = 0 ; i< n ; i++)
     {
