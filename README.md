@@ -4,9 +4,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="180">
 </div>
 
-C programming mini-projects — a hands-on archive of problems tackled using core C concepts. These programs range from beginner exercises to logic-driven challenges, built to reinforce a deeper understanding of how C actually works under the hood.
 
----
 
 ## 📂 Program Index
 
@@ -41,9 +39,17 @@ Below is a list of some of the programs included in this repository, categorized
 - **Version Control**: Git + GitHub
 
 ---
+<p align="center">
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/compiled-yes-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/runs-maybe-yellow?style=for-the-badge" />
 
+</p>
 
-![Repo Type: Playground](https://img.shields.io/badge/purpose-chaotic--learning-blueviolet)
+</p>
 
 ---
 
@@ -51,14 +57,7 @@ Below is a list of some of the programs included in this repository, categorized
 
 If you're learning C too or want to collaborate, feel free to connect:
 
-- 🧑‍💻 GitHub: [@TheTimelessRecall](https://github.com/TheTimelessRecall)
+- 🧑‍💻 Reddit: [@TheTimelessRecall](https://www.reddit.com/user/TimelessRecall/)
 - 💼 LinkedIn: [@timelessrecall](https://linkedin.com/in/timelessrecall)
 
 ---
-
-> “First, it doesn’t compile.  
-> Then it runs.  
-> Then it *segfaults.*  
-> Then it works.  
-> Then I forget how it works.”
-
