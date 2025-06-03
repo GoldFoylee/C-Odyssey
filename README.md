@@ -1,112 +1,64 @@
-# **C Programming Projects!**
+# 💻 C Programming Projects
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="200">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="180">
 </div>
 
+C programming mini-projects — a hands-on archive of problems tackled using core C concepts. These programs range from beginner exercises to logic-driven challenges, built to reinforce a deeper understanding of how C actually works under the hood.
 
-Welcome to my collection of C programming projects! This repository includes a series of simple yet impactful programs written in the C programming language. These programs cover a wide range of fundamental concepts, such as loops, conditionals, functions, and more. Each program is designed to solve a specific problem or perform a particular task, and they serve as a great way to demonstrate my growing knowledge of C.
+---
 
-## **Programs Included**
+## 📂 Program Index
 
-### **1. BMI Calculator**
+Below is a list of some of the programs included in this repository, categorized by functionality and concept.
 
-**Description**: A program that calculates the Body Mass Index (BMI) based on user input (height and weight).
+| #  | Program                                 | Key Concepts                                   |
+|----|-----------------------------------------|------------------------------------------------|
+| 1  | **BMI Calculator**                      | User Input, Math Ops, Conditionals             |
+| 2  | **Power of a Number**                   | Loops, Exponentiation                          |
+| 3  | **Armstrong Number Checker**            | Digit Math, Loops, Conditionals                |
+| 4  | **Strong Number Checker**               | Factorials, Digit Operations                   |
+| 5  | **Leap Year Checker**                   | Conditionals, Logical Ops                      |
+| 6  | **Palindrome Number Check**             | Reversing Numbers, Loops                       |
+| 7  | **Perfect Number Checker**              | Divisibility, Looping                          |
+| 8  | **Prime Number Check**                  | Basic Primality Logic                          |
+| 9  | **Binary to Decimal Conversion**        | Loops, Base Conversion                         |
+| 10 | **Factorial Calculator**                | Recursion, Iteration                           |
+| 11 | **Fibonacci Series Generator**          | Recursion, Loops                               |
+| 12 | **Floyd's Triangle**                    | Pattern Generation, Loops                      |
+| 13 | **HCF (GCD) of Two Numbers**            | Euclidean Algorithm, Math Ops                  |
+| 14 | **Reverse a Number**                    | Digit Manipulation, Loops                      |
+| 15 | **Temperature Converter**               | Arithmetic, Input/Output                       |
+| 16 | **Reverse Elements of an Array**        | Arrays, Index Manipulation                     |
+| 17 | **Check for Repeated Digits**           | Arrays, Frequency Tracking                     |
 
-**Concepts Covered**: User Input, Mathematical Operations, Conditionals
+---
 
-### **2. Calculating Power of a Number**
+## 🛠 Technologies Used
 
-**Description**: A program to calculate the power of a number (e.g., a^b).
+- **Language**: C (GCC / Clang)
+- **Editor**: Visual Studio Code
+- **Version Control**: Git + GitHub
 
-**Concepts Covered**: Loops, Exponentiation
+---
 
-### **3. Checking for Armstrong Number**
 
-**Description**: A program that checks if a given number is an Armstrong number (a number that is equal to the sum of its own digits raised to the power of the number of digits).
+![Repo Type: Playground](https://img.shields.io/badge/purpose-chaotic--learning-blueviolet)
 
-**Concepts Covered**: Loops, Conditionals, Mathematical Calculations
+---
 
-### **4. Checking for Strong Number**
+## 📬 Reach Out
 
-**Description**: A program that checks if a given number is a Strong number (a number that is equal to the sum of the factorials of its digits).
+If you're learning C too or want to collaborate, feel free to connect:
 
-**Concepts Covered**: Loops, Factorial Calculation, Conditionals
+- 🧑‍💻 GitHub: [@TheTimelessRecall](https://github.com/TheTimelessRecall)
+- 💼 LinkedIn: [@timelessrecall](https://linkedin.com/in/timelessrecall)
 
-### **5. Checking for Leap Year**
+---
 
-**Description**: A program to check if a given year is a leap year (divisible by 4, but not by 100, unless divisible by 400).
+> “First, it doesn’t compile.  
+> Then it runs.  
+> Then it *segfaults.*  
+> Then it works.  
+> Then I forget how it works.”
 
-**Concepts Covered**: Conditionals, Modulus Operator
-
-### **6. Palindrome Number Check**
-
-**Description**: A program that checks if a given number is a palindrome (a number that reads the same backward as forward).
-
-**Concepts Covered**: Loops, Conditionals, Reversing Numbers
-
-### **7. Perfect Number Check**
-
-**Description**: A program that checks if a number is a perfect number (a number that is equal to the sum of its proper divisors).
-
-**Concepts Covered**: Loops, Divisibility, Conditionals
-
-### **8. Prime Number Check**
-
-**Description**: A program to check if a given number is prime (a number that has no divisors other than 1 and itself).
-
-**Concepts Covered**: Loops, Conditionals, Prime Checking
-
-### **9. Converting Binary to Decimal**
-
-**Description**: A program to convert a binary number into its decimal equivalent.
-
-**Concepts Covered**: Loops, Number System Conversion
-
-### **10. Factorial of a Number**
-
-**Description**: A program to calculate the factorial of a given number (n!).
-
-**Concepts Covered**: Recursion, Factorial Calculation
-
-### **11. Fibonacci Series**
-
-**Description**: A program to print the Fibonacci series up to a specified number of terms.
-
-**Concepts Covered**: Loops, Recursion, Series Generation
-
-### **12. Floyd's Triangle**
-
-**Description**: A program that generates Floyd's Triangle (a right-angle triangle where the numbers are arranged in increasing order).
-
-**Concepts Covered**: Loops, Number Patterns
-
-### **13. HCF of Two Numbers**
-
-**Description**: A program to find the Highest Common Factor (HCF) of two numbers.
-
-**Concepts Covered**: Euclidean Algorithm, Loops, Mathematical Operations
-
-### **14. Reversing a Number**
-
-**Description**: A program that reverses a given number.
-
-**Concepts Covered**: Loops, Reversing Numbers
-
-### **15. Temperature Converter**
-
-**Description**: A program that converts a given temperature in Celsius to Fahrenheit and vice versa.
-
-**Concepts Covered**: User Input, Arithmetic Operations
-
-### **16. Reverse the Elements of an Array**
-
-**Description**: This program takes an array as input, and then outputs the elements of the array in both the original and reversed order.
-
-**Concepts Covered**: Array, Looping, Input/Output, Array Manipulation
-
-### **17. Check for Repeated Digits in a Number**
-
-**Description**: This program checks whether a given number has any repeated digits. It uses an array to keep track of the digits that have already appeared. If a digit repeats, the program outputs "Repeated," otherwise it outputs "Not repeated."
-
-**Concepts Covered**: Arrays, Loops, Modulus Operator, Input/Output, Conditionals
