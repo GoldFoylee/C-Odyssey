@@ -1,4 +1,4 @@
-# 💻 C Programming Projects
+# C Programming Projects
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="180">
@@ -6,7 +6,7 @@
 
 
 
-## 📂 Program Index
+## Program Index
 
 Below is a list of some of the programs included in this repository, categorized by functionality and concept.
 
@@ -32,7 +32,7 @@ Below is a list of some of the programs included in this repository, categorized
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Language**: C (GCC / Clang)
 - **Editor**: Visual Studio Code
@@ -53,7 +53,7 @@ Below is a list of some of the programs included in this repository, categorized
 
 ---
 
-## 📬 Reach Out
+## Reach Out
 
 If you're learning C too or want to collaborate, feel free to connect:
 
