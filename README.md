@@ -57,7 +57,7 @@ Below is a list of some of the programs included in this repository, categorized
 
 If you're learning C too or want to collaborate, feel free to connect:
 
-- 🧑‍💻 Reddit: [@TheTimelessRecall](https://www.reddit.com/user/TimelessRecall/)
-- 💼 LinkedIn: [@timelessrecall](https://linkedin.com/in/timelessrecall)
+- Reddit: [@TheTimelessRecall](https://www.reddit.com/user/TimelessRecall/)
+- LinkedIn: [@timelessrecall](https://linkedin.com/in/timelessrecall)
 
 ---
