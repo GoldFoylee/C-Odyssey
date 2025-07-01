@@ -19,16 +19,15 @@ Below is a list of some of the programs included in this repository, categorized
 | 5  | **Leap Year Checker**                   | Conditionals, Logical Ops                      |
 | 6  | **Palindrome Number Check**             | Reversing Numbers, Loops                       |
 | 7  | **Perfect Number Checker**              | Divisibility, Looping                          |
-| 8  | **Prime Number Check**                  | Basic Primality Logic                          |
-| 9  | **Binary to Decimal Conversion**        | Loops, Base Conversion                         |
-| 10 | **Factorial Calculator**                | Recursion, Iteration                           |
-| 11 | **Fibonacci Series Generator**          | Recursion, Loops                               |
-| 12 | **Floyd's Triangle**                    | Pattern Generation, Loops                      |
-| 13 | **HCF (GCD) of Two Numbers**            | Euclidean Algorithm, Math Ops                  |
-| 14 | **Reverse a Number**                    | Digit Manipulation, Loops                      |
-| 15 | **Temperature Converter**               | Arithmetic, Input/Output                       |
-| 16 | **Reverse Elements of an Array**        | Arrays, Index Manipulation                     |
-| 17 | **Check for Repeated Digits**           | Arrays, Frequency Tracking                     |
+| 8  | **Binary to Decimal Conversion**        | Loops, Base Conversion                         |
+| 9  | **Factorial Calculator**                | Recursion, Iteration                           |
+| 10 | **Fibonacci Series Generator**          | Recursion, Loops                               |
+| 11 | **Floyd's Triangle**                    | Pattern Generation, Loops                      |
+| 12 | **HCF (GCD) of Two Numbers**            | Euclidean Algorithm, Math Ops                  |
+| 13 | **Reverse a Number**                    | Digit Manipulation, Loops                      |
+| 14 | **Temperature Converter**               | Arithmetic, Input/Output                       |
+| 15 | **Reverse Elements of an Array**        | Arrays, Index Manipulation                     |
+| 16 | **Check for Repeated Digits**           | Arrays, Frequency Tracking                     |
 
 ---
 
