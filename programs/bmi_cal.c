@@ -1,36 +1,34 @@
 #include <stdio.h>
 
 int main() {
-    float height, weight, BMI;
+    float height, weight, bmi;
 
-   printf ("\t\t\t\t Welcome to the BMI Calculator!\n\n");
-   printf("Body mass index (BMI) is a calculation that estimates body fat based on your weight and height\n\n");
-   printf("Enter your height in meters:  ");
-   scanf("%f", &height);
-   printf("Enter your weight in kilograms:  ");
-   scanf("%f", &weight);
+    printf("\t\t\t\tWelcome to the BMI Calculator!\n\n");
+    printf("Body Mass Index (BMI) is a calculation that estimates body fat based on your weight and height.\n\n");
 
-   BMI= weight / (height*height);
+    // Get user input for height and weight
+    printf("Enter your height in meters (e.g., 1.75): ");
+    scanf("%f", &height);
 
-   printf("Your BMI: %.1f \n\n", BMI);
+    printf("Enter your weight in kilograms (e.g., 70.5): ");
+    scanf("%f", &weight);
 
-   if (BMI<18.5)
-   {
-       printf("Underweight\n");
-   }
-   else if (BMI>18.5 && BMI <24.9)
-   {
-       printf("Healthy Weight\n");
-   }
-   else if (BMI>24.9 && BMI<30)
-   {
-       printf("Overweight\n");
-   }
-   else
-   {
-       printf("Obesity\n");
-   }
+    // Calculate BMI
+    bmi = weight / (height * height);
 
-   return 0;
+    // Display BMI
+    printf("\nYour BMI: %.1f\n", bmi);
 
+    // Provide BMI category
+    if (bmi < 18.5) {
+        printf("Category: Underweight\n");
+    } else if (bmi >= 18.5 && bmi <= 24.9) {
+        printf("Category: Healthy Weight\n");
+    } else if (bmi >= 25.0 && bmi <= 29.9) {
+        printf("Category: Overweight\n");
+    } else {
+        printf("Category: Obesity\n");
+    }
+
+    return 0;
 }
