@@ -1,88 +1,82 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main()
-{
-    int select,select2;
-    float c,f,k;
+int main() {
+    int main_choice, sub_choice;
+    float celsius, fahrenheit, kelvin;
 
-    printf("\t\t\t\t\t Welcome to temperature coversion!\n\n");
-    printf("Temperature conversion formulas refer to changing the value of temperature from one unit to another\n\n");
+    printf("\t\t\t\t\tWelcome to Temperature Conversion!\n\n");
+    printf("Temperature conversion formulas help you change temperature values from one unit to another.\n\n");
 
-    printf("There are three main types of temperature conversions:\n");
-    printf("1. Conversion Between Celsius and Kelvin\n");
-    printf("2. Conversion Between Fahrenheit and Kelvin\n");
-    printf("3. Conversion Between Celsius and Fahrenheit\n\n");
-    printf("Choose the conversion type (Enter 1, 2, or 3): ");
-    scanf("%d", &select);
+    printf("Choose the conversion type:\n");
+    printf("1. Celsius <-> Kelvin\n");
+    printf("2. Fahrenheit <-> Kelvin\n");
+    printf("3. Celsius <-> Fahrenheit\n\n");
+    printf("Enter your choice (1, 2, or 3): ");
+    scanf("%d", &main_choice);
 
-    if(select == 1)
-    {
-    printf("1. Convert Celsius to Kelvin\n");
-    printf("2. Convert Kelvin to Celsius\n");
-    printf("Choose (Enter 1 or 2): ");
-    scanf("%d", &select2);
+    if (main_choice == 1) {
+        printf("\n1. Convert Celsius to Kelvin\n");
+        printf("2. Convert Kelvin to Celsius\n");
+        printf("Enter your choice (1 or 2): ");
+        scanf("%d", &sub_choice);
 
-      if (select2 == 1)
-        {
-         printf("Enter temperature in Celsius: ");
-         scanf("%f", &c);
-         k =c + 273.15;
-         printf("Temperature in Kelvin: %.1f\n", k);
-        }
-
-        else{
-            printf("Enter temperature in kelvin: ");
-            scanf("%f", &k);
-            c = k - 273.15 ;
-            printf("Temperature in Celsius: %.1f\n", c);
-        }
-}
-
-    else if(select ==2)
-    {
-        printf("1. Convert Fahrenheit to Celsius\n");
-        printf("2. Convert  Celsius to Fahrenheit\n");
-        printf("Choose (Enter 1 or 2): ");
-        scanf("%d", &select2);
-
-        if (select2 == 1)
-        {
-            printf("Enter temperature in Fahrenheit: ");
-            scanf("%f", &f);
-            c = (f - 32) * (5.0/9.0);
-            printf("Temperature in Celsius: %.1f\n", c);
-        }
-
-        else{
+        if (sub_choice == 1) {
             printf("Enter temperature in Celsius: ");
-            scanf("%f", &c);
-            f = c*(9.0/5.0) + 32;
-            printf("Temperature in Fahrenheit:%.1f\n", f);
-         }
-    }
+            scanf("%f", &celsius);
+            kelvin = celsius + 273.15;
+            printf("Temperature in Kelvin: %.1f\n", kelvin);
+        } else if (sub_choice == 2) {
+            printf("Enter temperature in Kelvin: ");
+            scanf("%f", &kelvin);
+            celsius = kelvin - 273.15;
+            printf("Temperature in Celsius: %.1f\n", celsius);
+        } else {
+            printf("Invalid sub-choice. Please enter 1 or 2.\n");
+        }
+    } else if (main_choice == 2) { 
+        printf("\n1. Convert Fahrenheit to Kelvin\n");
+        printf("2. Convert Kelvin to Fahrenheit\n");
+        printf("Enter your choice (1 or 2): ");
+        scanf("%d", &sub_choice);
 
-    else
-    {
-        printf("1. Convert Fahrenheit to Kelvin\n");
-        printf("2. Convert  Kelvin to Fahrenheit\n");
-        printf("Choose (Enter 1 or 2): ");
-        scanf("%d", &select2);
-
-        if(select2 == 1)
-        {
+        if (sub_choice == 1) {
             printf("Enter temperature in Fahrenheit: ");
-            scanf("%f", &f);
-            k = ((f - 32)* (5.0/9.0)) + 273.15;
-            printf("Temperature in kelvin: %f\n",k);
+            scanf("%f", &fahrenheit);
+            // Convert Fahrenheit to Celsius first, then to Kelvin
+            celsius = (fahrenheit - 32) * (5.0 / 9.0);
+            kelvin = celsius + 273.15;
+            printf("Temperature in Kelvin: %.1f\n", kelvin);
+        } else if (sub_choice == 2) {
+            printf("Enter temperature in Kelvin: ");
+            scanf("%f", &kelvin);
+            // Convert Kelvin to Celsius first, then to Fahrenheit
+            celsius = kelvin - 273.15;
+            fahrenheit = (celsius * (9.0 / 5.0)) + 32;
+            printf("Temperature in Fahrenheit: %.1f\n", fahrenheit);
+        } else {
+            printf("Invalid sub-choice. Please enter 1 or 2.\n");
         }
+    } else if (main_choice == 3) { 
+        printf("\n1. Convert Celsius to Fahrenheit\n");
+        printf("2. Convert Fahrenheit to Celsius\n");
+        printf("Enter your choice (1 or 2): ");
+        scanf("%d", &sub_choice);
 
-        else{
-            printf("Enter temperature in kelvin: ");
-            scanf("%f", &k);
-            f = ((k - 273.15) * (9.0/5.0)) + 32;
-            printf("Temperature in Fahrenheit: %f\n", f);
-
+        if (sub_choice == 1) {
+            printf("Enter temperature in Celsius: ");
+            scanf("%f", &celsius);
+            fahrenheit = (celsius * (9.0 / 5.0)) + 32;
+            printf("Temperature in Fahrenheit: %.1f\n", fahrenheit);
+        } else if (sub_choice == 2) {
+            printf("Enter temperature in Fahrenheit: ");
+            scanf("%f", &fahrenheit);
+            celsius = (fahrenheit - 32) * (5.0 / 9.0);
+            printf("Temperature in Celsius: %.1f\n", celsius);
+        } else {
+            printf("Invalid sub-choice. Please enter 1 or 2.\n");
         }
+    } else {
+        printf("Invalid main choice. Please enter 1, 2, or 3.\n");
     }
 
     return 0;
