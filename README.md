@@ -10,24 +10,24 @@
 
 Below is a list of some of the programs included in this repository, categorized by functionality and concept.
 
-| #  | Program                                 | Key Concepts                                   |
-|----|-----------------------------------------|------------------------------------------------|
-| 1  | **BMI Calculator**                      | User Input, Math Ops, Conditionals             |
-| 2  | **Power of a Number**                   | Loops, Exponentiation                          |
-| 3  | **Armstrong Number Checker**            | Digit Math, Loops, Conditionals                |
-| 4  | **Strong Number Checker**               | Factorials, Digit Operations                   |
-| 5  | **Leap Year Checker**                   | Conditionals, Logical Ops                      |
-| 6  | **Palindrome Number Check**             | Reversing Numbers, Loops                       |
-| 7  | **Perfect Number Checker**              | Divisibility, Looping                          |
-| 8  | **Binary to Decimal Conversion**        | Loops, Base Conversion                         |
-| 9  | **Factorial Calculator**                | Recursion, Iteration                           |
-| 10 | **Fibonacci Series Generator**          | Recursion, Loops                               |
-| 11 | **Floyd's Triangle**                    | Pattern Generation, Loops                      |
-| 12 | **HCF (GCD) of Two Numbers**            | Euclidean Algorithm, Math Ops                  |
-| 13 | **Reverse a Number**                    | Digit Manipulation, Loops                      |
-| 14 | **Temperature Converter**               | Arithmetic, Input/Output                       |
-| 15 | **Reverse Elements of an Array**        | Arrays, Index Manipulation                     |
-| 16 | **Check for Repeated Digits**           | Arrays, Frequency Tracking                     |
+| #  | Program                                                                 | Key Concepts                                   |
+|----|-------------------------------------------------------------------------|------------------------------------------------|
+| 1  | [BMI Calculator](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/bmi_cal.c)                    | User Input, Math Ops, Conditionals             |
+| 2  | [Power of a Number](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/power_of_number.c)         | Loops, Exponentiation                          |
+| 3  | [Armstrong Number Checker](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/armstrong_number.c) | Digit Math, Loops, Conditionals                |
+| 4  | [Strong Number Checker](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/strong_number.c)       | Factorials, Digit Operations                   |
+| 5  | [Leap Year Checker](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/leap_year.c)               | Conditionals, Logical Ops                      |
+| 6  | [Palindrome Number Check](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/palindrome_number.c) | Reversing Numbers, Loops                       |
+| 7  | [Perfect Number Checker](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/perfect_number.c)     | Divisibility, Looping                          |
+| 8  | [Binary to Decimal Conversion](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/binary_to_decimal.c) | Loops, Base Conversion                     |
+| 9  | [Factorial Calculator](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/factorial_number.c)     | Recursion, Iteration                           |
+| 10 | [Fibonacci Series Generator](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/fibonacci_series.c) | Recursion, Loops                           |
+| 11 | [Floyd's Triangle](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/floyd_triangle.c)           | Pattern Generation, Loops                      |
+| 12 | [HCF (GCD) of Two Numbers](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/hcf_of_numbers.c)   | Euclidean Algorithm, Math Ops                  |
+| 13 | [Reverse a Number](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/reverse_of_number.c)        | Digit Manipulation, Loops                      |
+| 14 | [Temperature Converter](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/temperature_converter.c) | Arithmetic, Input/Output                    |
+| 15 | [Reverse Elements of an Array](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/reversing_of_array_elements.c) | Arrays, Index Manipulation     |
+| 16 | [Check for Repeated Digits](https://github.com/TheTimelessRecall/C-Programs/blob/master/programs/checking_repetition_of_digit.c) | Arrays, Frequency Tracking     |
 
 ---
 
