@@ -1,19 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 
-void main()
-{
-    int n, x= 1;
+int main() {
+    int num_rows;
+    int current_number = 1;
 
-    printf("Enter the numbers of rows: ");
-    scanf("%d", &n);
+    printf("Enter the number of rows: ");
+    scanf("%d", &num_rows);
 
-    for(int i=1; i<=n; i++)
-    {
-        for(int j= 1; j <= i; j++)
-        {
-            printf("%d ", x);
-            x++;
+    for (int i = 1; i <= num_rows; i++) {
+        for (int j = 1; j <= i; j++) {
+            printf("%d ", current_number);
+            current_number++;
         }
         printf("\n");
     }
+
+    return 0;
 }
