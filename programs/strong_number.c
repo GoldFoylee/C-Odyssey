@@ -1,34 +1,32 @@
-#include<stdio.h>
+#include <stdio.h>
 
-void main()
-{
-    int n,rem,fact=1, result=0,x;
+int main() {
+    int number, original_number, remainder;
+    long long sum_of_factorials = 0; // Use long long for sum to prevent overflow
 
-    printf("Enter the number: ");
-    scanf("%d", &n);
+    printf("Enter a number: ");
+    scanf("%d", &number);
 
-    x=n;
+    original_number = number; 
 
-    while(n!=0)
-    {
-        rem=n%10;
-        for(int i=1; i<=rem;i++)
-        {
-            fact=fact*i;
+    while (number > 0) { 
+        remainder = number % 10; 
+        
+        // Calculate factorial of the current digit
+        long long factorial = 1; 
+        for (int i = 1; i <= remainder; i++) {
+            factorial *= i;
         }
-        result= result + fact;
-        fact=1;
-        n=n/10;
+        
+        sum_of_factorials += factorial; 
+        number /= 10;                   
     }
 
-    if(x==result)
-    {
-        printf("Strong number");
-    }
-    else
-    {
-        printf("Not a strong number");
+    if (original_number == sum_of_factorials) {
+        printf("%d is a strong number.\n", original_number);
+    } else {
+        printf("%d is not a strong number.\n", original_number);
     }
 
-
+    return 0;
 }
