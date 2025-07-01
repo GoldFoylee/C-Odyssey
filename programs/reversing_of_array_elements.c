@@ -1,30 +1,30 @@
-#include<stdio.h>
+#include <stdio.h>
 
-void main()
-{
+int main() {
     int n;
 
-    printf("Enter the size of the array ");
+    printf("Enter the size of the array: ");
     scanf("%d", &n);
 
+    // VLAs are a C99 feature
     int arr[n];
 
-    for (int i = 0 ; i< n ; i++)
-    {
-        printf("Enter the a[%d]= ", i);
-        scanf("%d", &a[i]);
+    for (int i = 0; i < n; i++) {
+        printf("Enter element a[%d]: ", i);
+        scanf("%d", &arr[i]);
     }
 
     printf("Before reversing: ");
-
-    for (int j = 0 ;j< n ;j++)
-    {
-        printf("%d ", a[j]);
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
     }
-    printf("\nAfter reversing: ");
+    printf("\n");
 
-    for(int k = n-1  ; k>=0 ; k--)
-    {
-        printf("%d ", a[k]);
+    printf("After reversing: ");
+    for (int i = n - 1; i >= 0; i--) {
+        printf("%d ", arr[i]);
     }
+    printf("\n");
+
+    return 0;
 }
