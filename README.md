@@ -31,13 +31,27 @@ Below is a list of some of the programs included in this repository, categorized
 
 ---
 
-## Technologies Used
+## How to Run
 
-- **Language**: C (GCC / Clang)
-- **Editor**: Visual Studio Code
-- **Version Control**: Git + GitHub
+To compile and run any program using GCC:
+
+```bash
+gcc programs/<file_name>.c -o <output_name>
+./<output_name>
+```
 
 ---
+
+## Folder Structure
+```bash
+C-Programs/
+├── programs/         
+├── LICENSE
+└── README.md
+```
+
+---
+
 <p align="center">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
@@ -50,13 +64,8 @@ Below is a list of some of the programs included in this repository, categorized
 
 </p>
 
----
-
-## Reach Out
-
-If you're learning C too or want to collaborate, feel free to connect:
-
-- Reddit: [@TheTimelessRecall](https://www.reddit.com/user/TimelessRecall/)
-- LinkedIn: [@timelessrecall](https://linkedin.com/in/timelessrecall)
-
----
+<p align="center"><i>
+If this repo helped, star it.<br>
+If it broke your brain, fork it and fix it.<br>
+Thanks for stopping by.
+</i></p>
