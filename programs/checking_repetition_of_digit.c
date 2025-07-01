@@ -1,34 +1,31 @@
 #include <stdio.h>
-#define N 10
+#define N 10 
 
-void main()
-{
-    int arr[N] ={0};
-    int num, rem;
+int main() {
+    int digit_counts[N] = {0}; // Array to track digit occurrences
+    int num, remainder;
 
     printf("Enter the number: ");
     scanf("%d", &num);
 
-    while(num !=0)
-    {
-        rem= num%10;
-        if (arr[rem] == 1)
-        {
-            break;
+    // Loop through each digit of the number
+    while (num != 0) {
+        remainder = num % 10;
+
+        if (digit_counts[remainder] == 1) {
+            break; // Digit repeated, exit loop
         }
-        arr[rem] =1;
-        num=num/10;
 
+        digit_counts[remainder] = 1;
+        num /= 10;
     }
 
-    if (num ==0 )
-    {
-        printf("Not repeated");
-    }
-    else
-    {
-        printf("Repeated");
+    // Determine and print if any digit was repeated
+    if (num == 0) {
+        printf("Not repeated\n");
+    } else {
+        printf("Repeated\n");
     }
 
-
+    return 0;
 }
