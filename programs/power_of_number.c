@@ -1,32 +1,26 @@
-#include<stdio.h>
+#include <stdio.h>
 
-void main()
-{
-    int n, power;
-    float result= 1.0 ;
+int main() {
+    int base, exponent;
+    double result = 1.0; 
+    printf("Enter the base number: "); 
+    scanf("%d", &base);
 
-    printf("Enter the number: ");
-    scanf("%d", &n);
+    printf("Enter the exponent (power): ");
+    scanf("%d", &exponent);
 
-    printf("Raised to power? ");
-    scanf("%d", &power);
-
-if(power >=0)
-{
-    for(int i= 1; i<= power; i++)
-    {
-        result= result*n;
-    }
-}
-
-else
-{
-    for(int i=1; i <= -power; i++)
-    {
-        result =result * (1.0/n);
+    if (exponent >= 0) {
+        for (int i = 0; i < exponent; i++) { 
+            result *= base;
+        }
+    } else {
+       
+        for (int i = 0; i < -exponent; i++) { 
+            result /= base;
+        }
     }
 
-}
-    printf("Result: %f ", result);
+    printf("Result: %.4f\n", result); 
 
+    return 0; 
 }
