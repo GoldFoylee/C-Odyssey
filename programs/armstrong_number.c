@@ -1,40 +1,40 @@
-#include<stdio.h>
+#include <stdio.h> 
+int main() {
+    int n, originalNumber, remainder, sum = 0, numDigits = 0;
+    long long powerResult; // Used to prevent overflow for larger numbers
 
-void main()
-{
-    int n, count =0, number,q, mult=1, result=0, cnt,x;
-
-    printf("Enter the number: ");
+    printf("Enter a number: ");
     scanf("%d", &n);
 
-    number=n;
-    x=n;
+    originalNumber = n;
 
-    while(n!=0)
-    {
-        n=n/10;
-        count++;
+    // Count the number of digits
+    int tempNumber = n;
+    while (tempNumber != 0) {
+        tempNumber /= 10;
+        numDigits++;
     }
-    cnt=count;
 
-    while(number!=0)
-    {
-        q=number%10;
-        while(cnt!=0)
-        {
-            mult=mult*q;
-            cnt--;
+    // Calculate sum of nth powers of digits
+    tempNumber = originalNumber;
+    while (tempNumber != 0) {
+        remainder = tempNumber % 10;
+
+        powerResult = 1;
+        for (int i = 0; i < numDigits; i++) {
+            powerResult *= remainder;
         }
-        result= result+ mult;
-        cnt=count;
-        number=number/10;
-        mult=1;
-    }
-    if(x== result)
-    {
-        printf("No is Armstrong");
-    }
-    else
-        printf("No is not Armstrong");
 
+        sum += powerResult;
+        tempNumber /= 10;
+    }
+
+    // Check if it's an Armstrong number
+    if (originalNumber == sum) {
+        printf("%d is an Armstrong number.\n", originalNumber);
+    } else {
+        printf("%d is not an Armstrong number.\n", originalNumber);
+    }
+
+    return 0;
 }
