@@ -62,10 +62,3 @@ C-Programs/
 
 </p>
 
-</p>
-
-<p align="center"><i>
-If this repo helped, star it.<br>
-If it broke your brain, fork it and fix it.<br>
-Thanks for stopping by.
-</i></p>
