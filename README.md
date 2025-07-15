@@ -96,7 +96,7 @@ Here’s a quick list to learn C
 -  [**LeetCode C Problems**](https://leetcode.com/problemset/all/?difficulty=Easy&status=Not%20Started&tags=c)  
   Practice logic in C. Filter by difficulty and language.
 
--  [**HackerRank – 10 Days of C Challenge**](https://www.hackerrank.com/domains/tutorials/10-days-of-c)  
+-  [**HackerRank**](https://www.hackerrank.com/domains/c)  
   Actually fun and beginner-safe challenge series.
 
 
