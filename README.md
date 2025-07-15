@@ -58,7 +58,40 @@ gcc bmi_calculator.c -o bmi_calc
 ```
 
 ---
+## Wanna Learn C ?
 
+Here’s a quick list to learn C
+
+### Beginner-Friendly
+
+-  [**C Programming - GeeksforGeeks**](https://www.geeksforgeeks.org/c-programming-language/)  
+  Covers concepts with examples. Good for reading + coding side by side.
+
+-  [**Learn-C.org (Interactive)**](https://www.learn-c.org/)  
+  Mess around with code in-browser. No setup, no excuses.
+
+---
+
+###  Deep Dive
+
+-  [**CS50x: Introduction to Computer Science (Harvard)**](https://cs50.harvard.edu/x/)  
+  Legendary course. Heavy on core concepts + C. It’s free and worth every second.
+
+-  [**The C Programming Language by Kernighan & Ritchie**](https://archive.org/details/The_C_Programming_Language_2nd_Edition)  
+  The OG bible of C. A bit dry, but if you finish this, you're built different.
+
+---
+
+### Practice Platforms
+
+-  [**LeetCode C Problems**](https://leetcode.com/problemset/all/?difficulty=Easy&status=Not%20Started&tags=c)  
+  Practice logic in C. Filter by difficulty and language.
+
+-  [**HackerRank – 10 Days of C Challenge**](https://www.hackerrank.com/domains/tutorials/10-days-of-c)  
+  Actually fun and beginner-safe challenge series.
+
+
+---
 ## Folder Structure
 ```bash
 C-Programs/
