@@ -46,7 +46,7 @@
 
 ```bash
 git clone https://github.com/TheTimelessRecall/beginner-c-programs.git
-cd C-Programs
+cd beginner-c-programs
 ```
 
 **2. Navigate to the programs directory**
@@ -58,7 +58,7 @@ cd programs
 
 Choose the program you want to run (e.g., bmi_calc.c).
 ```bash
-gcc bmi_calculator.c -o bmi_calc
+gcc bmi_calc.c -o bmi_calc
 ```
 
 **4. Run the program**
