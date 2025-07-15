@@ -103,7 +103,7 @@ Here’s a quick list to learn C
 ---
 ## Folder Structure
 ```bash
-C-Programs/
+beginner-c-programs/
 ├── programs/         
 ├── LICENSE
 └── README.md
