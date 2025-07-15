@@ -33,11 +33,28 @@ Below is a list of some of the programs included in this repository, categorized
 
 ## How to Run
 
-To compile and run any program using GCC:
+**1. Clone the repository**
 
 ```bash
-gcc programs/<file_name>.c -o <output_name>
-./<output_name>
+git clone https://github.com/TheTimelessRecall/C-Programs.git
+cd C-Programs
+```
+
+**2. Navigate to the programs directory**
+```bash
+cd programs
+```
+
+**3. Compile with GCC**
+
+Choose the program you want to run (e.g., bmi_calculator.c).
+```bash
+gcc bmi_calculator.c -o bmi_calc
+```
+
+**4. Run the program**
+```bash
+./bmi_calc
 ```
 
 ---
