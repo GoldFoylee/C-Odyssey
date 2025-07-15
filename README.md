@@ -45,7 +45,7 @@
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/TheTimelessRecall/C-Programs.git
+git clone https://github.com/TheTimelessRecall/beginner-c-programs.git
 cd C-Programs
 ```
 
@@ -110,6 +110,7 @@ C-Programs/
 ```
 
 ---
+
 
 ## License
 
