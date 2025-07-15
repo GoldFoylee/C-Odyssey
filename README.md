@@ -56,7 +56,7 @@ cd programs
 
 **3. Compile with GCC**
 
-Choose the program you want to run (e.g., bmi_calculator.c).
+Choose the program you want to run (e.g., bmi_calc.c).
 ```bash
 gcc bmi_calculator.c -o bmi_calc
 ```
