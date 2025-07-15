@@ -1,8 +1,18 @@
-# C Programming Projects
+#  beginner-c-programs
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="180">
 </div>
+<p align="center"><i>A collection of classic C programs for beginners.</i></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/compiled-yes-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/runs-maybe-yellow?style=for-the-badge" />
+</p>
 
 
 
@@ -101,13 +111,11 @@ C-Programs/
 
 ---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/compiled-yes-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/runs-maybe-yellow?style=for-the-badge" />
+## License
 
-</p>
+This project is licensed under the MIT License.
+See [LICENSE](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/LICENSE) for more info.
+
+---
+
 
