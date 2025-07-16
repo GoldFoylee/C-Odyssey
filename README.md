@@ -43,6 +43,23 @@
 | **21** | [Check Alphabet, Digit or Special Char](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/check_char_type.c) | ASCII, Conditionals | 🟢 Easy |
 | **22** | [Vowel or Consonant Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/vowel_consonant.c) | Conditionals, Characters | 🟢 Easy |
 | **23** | [Simple Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/simple_calculator.c) | Switch Case, Arithmetic Ops | 🟢 Easy |
+| **24** | [Swapping Two Numbers (Temp Var)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/swap_with_temp.c) | Variables, Logic | 🟢 Easy |
+| **25** | [Swapping Two Numbers (No Temp Var)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/swap_no_temp.c) | Arithmetic, Logic | 🟢 Easy |
+| **26** | [Check for Prime Number](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/prime_check.c) | Loops, Conditionals | 🟡 Medium |
+| **27** | [Print Prime Numbers in Range](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/prime_in_range.c) | Nested Loops, Optimization | 🟡 Medium |
+| **28** | [Number to Words (0-999)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/number_to_words.c) | Conditionals, String Mapping | 🟡 Medium |
+| **29** | [Simple Interest Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/simple_interest.c) | Input/Output, Math Ops | 🟢 Easy |
+| **30** | [Compound Interest Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/compound_interest.c) | Math Library, Loops | 🟡 Medium |
+| **31** | [LCM of Two Numbers](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/lcm_of_numbers.c) | Math Ops, HCF Logic | 🟡 Medium |
+| **32** | [Decimal to Binary](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/decimal_to_binary.c) | Loops, Base Conversion | 🟡 Medium |
+| **33** | [Multiplication Table Generator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/multiplication_table.c) | Loops, Formatting | 🟢 Easy |
+| **34** | [Check for Armstrong in Range](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/armstrong_in_range.c) | Loops, Number Theory | 🟡 Medium |
+| **35** | [Find ASCII of a Character](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/char_ascii_value.c) | ASCII, Data Types | 🟢 Easy |
+| **36** | [Check if Number is Palindrome](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/palindrome_check.c) | Loops, Math Ops | 🟢 Easy |
+| **37** | [Display ASCII Table](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/ascii_table.c) | Loops, Characters | 🟢 Easy |
+| **38** | [Sort Array (Bubble Sort)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/bubble_sort.c) | Sorting, Arrays | 🟡 Medium |
+| **39** | [Linear Search in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/linear_search.c) | Arrays, Search Logic | 🟢 Easy |
+| **40** | [Binary Search in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/binary_search.c) | Binary Search, Sorted Arrays | 🟡 Medium |
 
 
 
