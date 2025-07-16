@@ -55,11 +55,10 @@
 | **33** | [Multiplication Table Generator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/multiplication_table.c) | Loops, Formatting | 🟢 Easy |
 | **34** | [Check for Armstrong in Range](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/armstrong_in_range.c) | Loops, Number Theory | 🟡 Medium |
 | **35** | [Find ASCII of a Character](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/char_ascii_value.c) | ASCII, Data Types | 🟢 Easy |
-| **36** | [Check if Number is Palindrome](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/palindrome_check.c) | Loops, Math Ops | 🟢 Easy |
-| **37** | [Display ASCII Table](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/ascii_table.c) | Loops, Characters | 🟢 Easy |
-| **38** | [Sort Array (Bubble Sort)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/bubble_sort.c) | Sorting, Arrays | 🟡 Medium |
-| **39** | [Linear Search in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/linear_search.c) | Arrays, Search Logic | 🟢 Easy |
-| **40** | [Binary Search in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/binary_search.c) | Binary Search, Sorted Arrays | 🟡 Medium |
+| **36** | [Display ASCII Table](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/ascii_table.c) | Loops, Characters | 🟢 Easy |
+| **37** | [Sort Array (Bubble Sort)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/bubble_sort.c) | Sorting, Arrays | 🟡 Medium |
+| **38** | [Linear Search in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/linear_search.c) | Arrays, Search Logic | 🟢 Easy |
+| **39** | [Binary Search in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/binary_search.c) | Binary Search, Sorted Arrays | 🟡 Medium |
 
 
 
