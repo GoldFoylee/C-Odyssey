@@ -18,24 +18,50 @@
 
 ## Program Index
 
-|   | Program                                                                                                                          |   Key Concepts                                 |
-|----|----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
-| **1**  | [BMI Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/bmi_cal.c)                    | User Input, Math Ops, Conditionals             |
-| **2**  | [Power of a Number](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/power_of_number.c)         | Loops, Exponentiation                          |
-| **3**  | [Armstrong Number Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/armstrong_number.c) | Digit Math, Loops, Conditionals                |
-| **4**  | [Strong Number Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/strong_number.c)       | Factorials, Digit Operations                   |
-| **5**  | [Leap Year Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/leap_year.c)               | Conditionals, Logical Ops                      |
-| **6**  | [Palindrome Number Check](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/palindrome_number.c) | Reversing Numbers, Loops                       |
-| **7**  | [Perfect Number Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/perfect_number.c)     | Divisibility, Looping                          |
-| **8**  | [Binary to Decimal Conversion](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/binary_to_decimal.c) | Loops, Base Conversion                    |
-| **9**  | [Factorial Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/factorial_number.c)     | Recursion, Iteration                           |
-| **10** | [Fibonacci Series Generator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/fibonacci_series.c) | Recursion, Loops                             |
-| **11** | [Floyd's Triangle](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/floyd_triangle.c)           | Pattern Generation, Loops                      |
-| **12** | [HCF (GCD) of Two Numbers](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/hcf_of_numbers.c)   | Euclidean Algorithm, Math Ops                  |
-| **13** | [Reverse a Number](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/reverse_of_number.c)        | Digit Manipulation, Loops                      |
-| **14** | [Temperature Converter](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/temperature_converter.c) | Arithmetic, Input/Output                     |
-| **15** | [Reverse Elements of an Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/reversing_of_array_elements.c) | Arrays, Index Manipulation      |
-| **16** | [Check for Repeated Digits](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/checking_repetition_of_digit.c) | Arrays, Frequency Tracking        |
+| #  | Program | Key Concepts | Difficulty |
+|----|----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|------------|
+| **1**  | [BMI Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/bmi_cal.c)                    | User Input, Math Ops, Conditionals             | 🟢 Easy    |
+| **2**  | [Power of a Number](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/power_of_number.c)         | Loops, Exponentiation                          | 🟢 Easy    |
+| **3**  | [Armstrong Number Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/armstrong_number.c) | Digit Math, Loops, Conditionals                | 🟡 Medium  |
+| **4**  | [Strong Number Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/strong_number.c)       | Factorials, Digit Operations                   | 🟡 Medium  |
+| **5**  | [Leap Year Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/leap_year.c)               | Conditionals, Logical Ops                      | 🟢 Easy    |
+| **6**  | [Palindrome Number Check](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/palindrome_number.c) | Reversing Numbers, Loops                       | 🟢 Easy    |
+| **7**  | [Perfect Number Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/perfect_number.c)     | Divisibility, Looping                          | 🟡 Medium  |
+| **8**  | [Binary to Decimal Conversion](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/binary_to_decimal.c) | Loops, Base Conversion                    | 🟡 Medium  |
+| **9**  | [Factorial Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/factorial_number.c)     | Recursion, Iteration                           | 🟡 Medium  |
+| **10** | [Fibonacci Series Generator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/fibonacci_series.c) | Recursion, Loops                             | 🟡 Medium  |
+| **11** | [Floyd's Triangle](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/floyd_triangle.c)           | Pattern Generation, Loops                      | 🟢 Easy    |
+| **12** | [HCF (GCD) of Two Numbers](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/hcf_of_numbers.c)   | Euclidean Algorithm, Math Ops                  | 🟡 Medium  |
+| **13** | [Reverse a Number](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/reverse_of_number.c)        | Digit Manipulation, Loops                      | 🟢 Easy    |
+| **14** | [Temperature Converter](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/temperature_converter.c) | Arithmetic, Input/Output                     | 🟢 Easy    |
+| **15** | [Reverse Elements of an Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/reversing_of_array_elements.c) | Arrays, Index Manipulation      | 🟡 Medium  |
+| **16** | [Check for Repeated Digits](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/checking_repetition_of_digit.c) | Arrays, Frequency Tracking        | 🟡 Medium  |
+| **17** | [Sum of Digits](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/sum_digits.c) | Loops, Digit Extraction | 🟢 Easy |
+| **18** | [Sum of Even and Odd Digits](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/sum_even_odd_digits.c) | Digit Extraction, Conditionals | 🟢 Easy |
+| **19** | [Count Number of Digits](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/count_digits.c) | Loops, Integer Division | 🟢 Easy |
+| **20** | [Greatest of Three Numbers](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/greatest_of_three.c) | Conditionals, Comparisons | 🟢 Easy |
+| **21** | [Check Alphabet, Digit or Special Char](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/check_char_type.c) | ASCII, Conditionals | 🟢 Easy |
+| **22** | [Vowel or Consonant Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/vowel_consonant.c) | Conditionals, Characters | 🟢 Easy |
+| **23** | [Simple Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/simple_calculator.c) | Switch Case, Arithmetic Ops | 🟢 Easy |
+| **24** | [Swapping Two Numbers (Temp Var)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/swap_with_temp.c) | Variables, Logic | 🟢 Easy |
+| **25** | [Swapping Two Numbers (No Temp Var)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/swap_no_temp.c) | Arithmetic, Logic | 🟢 Easy |
+| **26** | [Check for Prime Number](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/prime_check.c) | Loops, Conditionals | 🟡 Medium |
+| **27** | [Print Prime Numbers in Range](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/prime_in_range.c) | Nested Loops, Optimization | 🟡 Medium |
+| **28** | [Number to Words (0-999)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/number_to_words.c) | Conditionals, String Mapping | 🟡 Medium |
+| **29** | [Simple Interest Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/simple_interest.c) | Input/Output, Math Ops | 🟢 Easy |
+| **30** | [Compound Interest Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/compound_interest.c) | Math Library, Loops | 🟡 Medium |
+| **31** | [LCM of Two Numbers](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/lcm_of_numbers.c) | Math Ops, HCF Logic | 🟡 Medium |
+| **32** | [Decimal to Binary](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/decimal_to_binary.c) | Loops, Base Conversion | 🟡 Medium |
+| **33** | [Multiplication Table Generator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/multiplication_table.c) | Loops, Formatting | 🟢 Easy |
+| **34** | [Check for Armstrong in Range](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/armstrong_in_range.c) | Loops, Number Theory | 🟡 Medium |
+| **35** | [Find ASCII of a Character](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/char_ascii_value.c) | ASCII, Data Types | 🟢 Easy |
+| **36** | [Check if Number is Palindrome](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/palindrome_check.c) | Loops, Math Ops | 🟢 Easy |
+| **37** | [Display ASCII Table](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/ascii_table.c) | Loops, Characters | 🟢 Easy |
+| **38** | [Sort Array (Bubble Sort)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/bubble_sort.c) | Sorting, Arrays | 🟡 Medium |
+| **39** | [Linear Search in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/linear_search.c) | Arrays, Search Logic | 🟢 Easy |
+| **40** | [Binary Search in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/binary_search.c) | Binary Search, Sorted Arrays | 🟡 Medium |
+
+
 
 ---
 
