@@ -164,8 +164,3 @@ Contributions are welcome. If you have a beginner-friendly C program to add, ple
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/LICENSE) file for more details.
 
 ---
-  &nbsp;
-  <a href="https://github.com/TheTimelessRecall" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" style="height:40px; border-radius:5px; transition: all 0.2s ease-in-out;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';">
-  </a>
-</p>
