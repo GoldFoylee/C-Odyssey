@@ -6,21 +6,24 @@
 
 *A set of basic C programs to kickstart your coding journey. These are ideal for students and self-learners.*
 
-</div>
 
+</div>
 <p align="center">
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/github/last-commit/TheTimelessRecall/C-Odyssey?style=for-the-badge&logo=git&logoColor=white" alt="Last Commit">
-  <img src="https://img.shields.io/badge/Programs-43-blue?style=for-the-badge&logo=c" alt="Program Count">
-  <img src="https://img.shields.io/github/license/TheTimelessRecall/C-Odyssey?style=for-the-badge&color=blueviolet" alt="License">
+  <a href="https://github.com/TheTimelessRecall/C-Odyssey/actions/workflows/c-build.yml">
+    <img src="https://github.com/TheTimelessRecall/C-Odyssey/actions/workflows/c-build.yml/badge.svg" alt="C/C++ CI Status">
+  </a>
+  <img src="https://img.shields.io/github/stars/TheTimelessRecall/C-Odyssey?style=flat-square&logo=github&color=FFD700" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/TheTimelessRecall/C-Odyssey?style=flat-square&logo=github&color=9ACD32" alt="GitHub Forks">
+  <img src="https://img.shields.io/github/last-commit/TheTimelessRecall/C-Odyssey?style=flat-square&logo=git&logoColor=white" alt="Last Commit">
+  <img src="https://img.shields.io/badge/Programs-43-blue?style=flat-square&logo=c" alt="Program Count">
+  <img src="https://img.shields.io/github/license/TheTimelessRecall/C-Odyssey?style=flat-square&color=blueviolet" alt="License">
 </p>
 
 ---
 
-## Program Index
+## Program Launchpad
 
-The main feature of this repository is its collection of 43 easy programs for beginners. Each program offers a small step toward mastering C.
+The heart of this repository is its collection of 43 beginner-friendly programs. Each one is a small step towards mastering C.
 
 <details>
 <summary><strong>Click to expand the full list of programs</strong></summary>
@@ -77,23 +80,35 @@ The main feature of this repository is its collection of 43 easy programs for be
 
 ##  How to Get Started
 
-Ready to run the code? Just follow these simple steps.
+This project uses a `Makefile` to simplify compilation. You no longer need to run `gcc` manually for each file.
 
 1.  **Clone the Repo:**
     ```bash
     git clone https://github.com/TheTimelessRecall/C-Odyssey.git
-    cd C-Odyssey/programs
+    cd C-Odyssey
     ```
 
-2.  **Compile the Code:** (e.g., `bmi_cal.c`)
-    ```bash
-    gcc bmi_cal.c -o bmi_calc -lm
-    ```
-    > **Note:** The `-lm` flag links the math library, which may be needed for some programs.
+2.  **Compile the Code:**
+    You can compile all programs at once or just a specific one.
+    * **Compile all programs:**
+        ```bash
+        make all
+        ```
+    * **Compile a single program** (e.g., `bmi_cal.c`):
+        ```bash
+        make bin/bmi_cal
+        ```
+    All compiled programs will be placed in a `bin/` directory.
 
-3.  **Run the Executable:**
+3.  **Run an Executable:**
     ```bash
-    ./bmi_calc
+    ./bin/bmi_cal
+    ```
+
+4.  **Clean Up (Optional):**
+    To remove all compiled files, run:
+    ```bash
+    make clean
     ```
 
 ---
@@ -123,23 +138,27 @@ Check out these great resources to keep going on your journey.
 
 ##  Project Layout
 ```bash
+
 📁 C-Odyssey/
+├── 📁 .github/workflows/
+│   └── 📄 c-build.yml
 ├── 📁 programs/
 │   ├── 📄 bmi_cal.c
-│   └── ... (42 more files)
+│   └── ... (42 more files)
 ├── 📄 LICENSE
+├── 📄 Makefile
 └── 📄 README.md
+
 ```
 
 ---
 
-
 ##  Contributing
 
-Contributions are welcome. If you have a beginner-friendly C program to add, feel free to fork the repo and submit a pull request. Please follow the current code style and naming conventions.
+Contributions are welcome. If you have a beginner-friendly C program to add, please fork the repo and submit a pull request.
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/LICENSE) file for more details.
