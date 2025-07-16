@@ -1,4 +1,4 @@
-#  beginner-c-programs
+<h1 align="center"> beginner-c-programs</h1>
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="180">
