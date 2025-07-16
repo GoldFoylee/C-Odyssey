@@ -23,7 +23,7 @@
 
 ## Program Launchpad
 
-The heart of this repository is its collection of 43 beginner-friendly programs. Each one is a small step towards mastering C.
+This repository's 43 beginner-friendly programs are its main feature. Each one is a step toward becoming proficient in C.
 
 <details>
 <summary><strong>Click to expand the full list of programs</strong></summary>
