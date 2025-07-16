@@ -1,105 +1,109 @@
-<h1 align="center">  C Odyssey: A Beginner's Voyage </h1>
+<h1 align="center">  C Odyssey: A Beginner's Voyage </h1>
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="180">
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="180">
+
+*A curated collection of foundational C programs designed to launch your coding journey. Perfect for students and self-learners alike.*
+
 </div>
-<p align="center"><i>A collection of beginner-friendly C programs that build your fundamentals, one problem at a time. Great for students, self-taught devs, and anyone getting started with low-level programming.</i></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License Badge">
-  <img src="https://img.shields.io/badge/status-maintained-brightgreen?style=for-the-badge" />
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/github/last-commit/TheTimelessRecall/C-Odyssey?style=for-the-badge&logo=git&logoColor=white" alt="Last Commit">
+  <img src="https://img.shields.io/badge/Programs-43-blue?style=for-the-badge&logo=c" alt="Program Count">
+  <img src="https://img.shields.io/github/license/TheTimelessRecall/C-Odyssey?style=for-the-badge&color=blueviolet" alt="License">
 </p>
 
-
+---
 
 ## Program Index
 
-| #  | Program | Key Concepts | Difficulty |
-|----|----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|------------|
-| **1**  | [BMI Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/bmi_cal.c)                    | User Input, Math Ops, Conditionals             | 🟢 Easy    |
-| **2**  | [Power of a Number](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/power_of_number.c)         | Loops, Exponentiation                          | 🟢 Easy    |
-| **3**  | [Armstrong Number Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/armstrong_number.c) | Digit Math, Loops, Conditionals                | 🟡 Medium  |
-| **4**  | [Strong Number Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/strong_number.c)       | Factorials, Digit Operations                   | 🟡 Medium  |
-| **5**  | [Leap Year Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/leap_year.c)               | Conditionals, Logical Ops                      | 🟢 Easy    |
-| **6**  | [Palindrome Number Check](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/palindrome_number.c) | Reversing Numbers, Loops                       | 🟢 Easy    |
-| **7**  | [Perfect Number Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/perfect_number.c)     | Divisibility, Looping                          | 🟡 Medium  |
-| **8**  | [Binary to Decimal Conversion](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/binary_to_decimal.c) | Loops, Base Conversion                    | 🟡 Medium  |
-| **9**  | [Factorial Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/factorial_number.c)     | Recursion, Iteration                           | 🟡 Medium  |
-| **10** | [Fibonacci Series Generator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/fibonacci_series.c) | Recursion, Loops                             | 🟡 Medium  |
-| **11** | [Floyd's Triangle](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/floyd_triangle.c)           | Pattern Generation, Loops                      | 🟢 Easy    |
-| **12** | [HCF (GCD) of Two Numbers](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/hcf_of_numbers.c)   | Euclidean Algorithm, Math Ops                  | 🟡 Medium  |
-| **13** | [Reverse a Number](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/reverse_of_number.c)        | Digit Manipulation, Loops                      | 🟢 Easy    |
-| **14** | [Temperature Converter](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/temperature_converter.c) | Arithmetic, Input/Output                     | 🟢 Easy    |
-| **15** | [Reverse Elements of an Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/reversing_of_array_elements.c) | Arrays, Index Manipulation      | 🟡 Medium  |
-| **16** | [Check for Repeated Digits](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/checking_repetition_of_digit.c) | Arrays, Frequency Tracking        | 🟡 Medium  |
-| **17** | [Sum of Digits](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/sum_digits.c) | Loops, Digit Extraction | 🟢 Easy |
-| **18** | [Sum of Even and Odd Digits](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/sum_even_odd_digits.c) | Digit Extraction, Conditionals | 🟢 Easy |
-| **19** | [Count Number of Digits](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/count_digits.c) | Loops, Integer Division | 🟢 Easy |
-| **20** | [Greatest of Three Numbers](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/greatest_of_three.c) | Conditionals, Comparisons | 🟢 Easy |
-| **21** | [Check Alphabet, Digit or Special Char](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/check_char_type.c) | ASCII, Conditionals | 🟢 Easy |
-| **22** | [Vowel or Consonant Checker](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/vowel_consonant.c) | Conditionals, Characters | 🟢 Easy |
-| **23** | [Simple Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/simple_calculator.c) | Switch Case, Arithmetic Ops | 🟢 Easy |
-| **24** | [Swapping Two Numbers (Temp Var)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/swap_with_temp.c) | Variables, Logic | 🟢 Easy |
-| **25** | [Swapping Two Numbers (No Temp Var)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/swap_no_temp.c) | Arithmetic, Logic | 🟢 Easy |
-| **26** | [Check for Prime Number](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/prime_check.c) | Loops, Conditionals | 🟡 Medium |
-| **27** | [Print Prime Numbers in Range](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/prime_in_range.c) | Nested Loops, Optimization | 🟡 Medium |
-| **28** | [Number to Words (0-999)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/number_to_words.c) | Conditionals, String Mapping | 🟡 Medium |
-| **29** | [Simple Interest Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/simple_interest.c) | Input/Output, Math Ops | 🟢 Easy |
-| **30** | [Compound Interest Calculator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/compound_interest.c) | Math Library, Loops | 🟡 Medium |
-| **31** | [LCM of Two Numbers](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/lcm_of_numbers.c) | Math Ops, HCF Logic | 🟡 Medium |
-| **32** | [Decimal to Binary](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/decimal_to_binary.c) | Loops, Base Conversion | 🟡 Medium |
-| **33** | [Multiplication Table Generator](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/multiplication_table.c) | Loops, Formatting | 🟢 Easy |
-| **34** | [Check for Armstrong in Range](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/armstrong_in_range.c) | Loops, Number Theory | 🟡 Medium |
-| **35** | [Find ASCII of a Character](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/char_ascii_value.c) | ASCII, Data Types | 🟢 Easy |
-| **36** | [Display ASCII Table](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/ascii_table.c) | Loops, Characters | 🟢 Easy |
-| **37** | [Sort Array (Bubble Sort)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/bubble_sort.c) | Sorting, Arrays | 🟡 Medium |
-| **38** | [Linear Search in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/linear_search.c) | Arrays, Search Logic | 🟢 Easy |
-| **39** | [Binary Search in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/binary_search.c) | Binary Search, Sorted Arrays | 🟡 Medium |
-| **40** | [Find Max Element in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/find_max_in_array.c) | Arrays, Loops, Comparison | 🟢 Easy |
-| **41** | [Find Min Element in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/find_min_in_array.c) | Arrays, Loops, Comparison | 🟢 Easy |
-| **42** | [Sum of Array Elements](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/sum_of_array_elements.c) | Arrays, Loops, Accumulation | 🟢 Easy |
-| **43** | [Sum of N Natural Numbers](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/sum_of_n_natural_numbers.c) | Loops, Accumulation | 🟢 Easy |
+The main feature of this repository is its collection of 43 easy programs for beginners. Each program offers a small step toward mastering C.
 
+<details>
+<summary><strong>Click to expand the full list of programs</strong></summary>
 
+| #  | Program                                                                                                           | Key Concepts                               | Difficulty |
+|:---|:------------------------------------------------------------------------------------------------------------------|:-------------------------------------------|:-----------|
+| 1  | [BMI Calculator](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/bmi_cal.c)                    | `User Input`, `Math Ops`, `Conditionals`   | 🟢 Easy    |
+| 2  | [Power of a Number](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/power_of_number.c)         | `Loops`, `Exponentiation`                  | 🟢 Easy    |
+| 3  | [Armstrong Number Checker](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/armstrong_number.c) | `Digit Math`, `Loops`, `Conditionals`      | 🟡 Medium  |
+| 4  | [Strong Number Checker](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/strong_number.c)       | `Factorials`, `Digit Operations`           | 🟡 Medium  |
+| 5  | [Leap Year Checker](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/leap_year.c)               | `Conditionals`, `Logical Ops`              | 🟢 Easy    |
+| 6  | [Palindrome Number Check](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/palindrome_number.c) | `Reversing Numbers`, `Loops`               | 🟢 Easy    |
+| 7  | [Perfect Number Checker](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/perfect_number.c)     | `Divisibility`, `Looping`                  | 🟡 Medium  |
+| 8  | [Binary to Decimal Conversion](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/binary_to_decimal.c) | `Loops`, `Base Conversion`                 | 🟡 Medium  |
+| 9  | [Factorial Calculator](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/factorial_number.c)     | `Recursion`, `Iteration`                   | 🟡 Medium  |
+| 10 | [Fibonacci Series Generator](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/fibonacci_series.c) | `Recursion`, `Loops`                       | 🟡 Medium  |
+| 11 | [Floyd's Triangle](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/floyd_triangle.c)           | `Pattern Generation`, `Loops`              | 🟢 Easy    |
+| 12 | [HCF (GCD) of Two Numbers](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/hcf_of_numbers.c)   | `Euclidean Algorithm`, `Math Ops`          | 🟡 Medium  |
+| 13 | [Reverse a Number](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/reverse_of_number.c)        | `Digit Manipulation`, `Loops`              | 🟢 Easy    |
+| 14 | [Temperature Converter](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/temperature_converter.c) | `Arithmetic`, `Input/Output`               | 🟢 Easy    |
+| 15 | [Reverse Array Elements](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/reversing_of_array_elements.c) | `Arrays`, `Index Manipulation`           | 🟡 Medium  |
+| 16 | [Check for Repeated Digits](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/checking_repetition_of_digit.c) | `Arrays`, `Frequency Tracking`         | 🟡 Medium  |
+| 17 | [Sum of Digits](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/sum_digits.c)                  | `Loops`, `Digit Extraction`                | 🟢 Easy    |
+| 18 | [Sum of Even & Odd Digits](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/sum_even_odd_digits.c) | `Digit Extraction`, `Conditionals`         | 🟢 Easy    |
+| 19 | [Count Number of Digits](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/count_digits.c)        | `Loops`, `Integer Division`                | 🟢 Easy    |
+| 20 | [Greatest of Three Numbers](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/greatest_of_three.c) | `Conditionals`, `Comparisons`              | 🟢 Easy    |
+| 21 | [Check Char Type](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/check_char_type.c) | `ASCII`, `Conditionals`                    | 🟢 Easy    |
+| 22 | [Vowel or Consonant Checker](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/vowel_consonant.c) | `Conditionals`, `Characters`               | 🟢 Easy    |
+| 23 | [Simple Calculator](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/simple_calculator.c)      | `Switch Case`, `Arithmetic Ops`            | 🟢 Easy    |
+| 24 | [Swap Numbers (Temp Var)](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/swap_with_temp.c)    | `Variables`, `Logic`                       | 🟢 Easy    |
+| 25 | [Swap Numbers (No Temp Var)](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/swap_no_temp.c)    | `Arithmetic`, `Logic`                      | 🟢 Easy    |
+| 26 | [Prime Number Checker](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/prime_check.c)          | `Loops`, `Conditionals`                    | 🟡 Medium  |
+| 27 | [Primes in a Range](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/prime_in_range.c)          | `Nested Loops`, `Optimization`             | 🟡 Medium  |
+| 28 | [Number to Words (0-999)](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/number_to_words.c)    | `Conditionals`, `String Mapping`           | 🟡 Medium  |
+| 29 | [Simple Interest Calculator](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/simple_interest.c) | `Input/Output`, `Math Ops`                 | 🟢 Easy    |
+| 30 | [Compound Interest Calculator](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/compound_interest.c) | `Math Library`, `Loops`                  | 🟡 Medium  |
+| 31 | [LCM of Two Numbers](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/lcm_of_numbers.c)         | `Math Ops`, `HCF Logic`                    | 🟡 Medium  |
+| 32 | [Decimal to Binary](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/decimal_to_binary.c)       | `Loops`, `Base Conversion`                 | 🟡 Medium  |
+| 33 | [Multiplication Table](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/multiplication_table.c) | `Loops`, `Formatting`                      | 🟢 Easy    |
+| 34 | [Armstrong in a Range](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/armstrong_in_range.c)   | `Loops`, `Number Theory`                   | 🟡 Medium  |
+| 35 | [Find ASCII Value](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/char_ascii_value.c)         | `ASCII`, `Data Types`                      | 🟢 Easy    |
+| 36 | [Display ASCII Table](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/ascii_table.c)           | `Loops`, `Characters`                      | 🟢 Easy    |
+| 37 | [Bubble Sort](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/bubble_sort.c)                   | `Sorting`, `Arrays`, `Nested Loops`        | 🟡 Medium  |
+| 38 | [Linear Search](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/linear_search.c)               | `Arrays`, `Search Logic`                   | 🟢 Easy    |
+| 39 | [Binary Search](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/binary_search.c)               | `Binary Search`, `Sorted Arrays`           | 🟡 Medium  |
+| 40 | [Find Max in Array](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/find_max_in_array.c)       | `Arrays`, `Loops`, `Comparison`            | 🟢 Easy    |
+| 41 | [Find Min in Array](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/find_min_in_array.c)       | `Arrays`, `Loops`, `Comparison`            | 🟢 Easy    |
+| 42 | [Sum of Array Elements](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/sum_of_array_elements.c) | `Arrays`, `Loops`, `Accumulation`          | 🟢 Easy    |
+| 43 | [Sum of N Natural Numbers](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/programs/sum_of_n_natural_numbers.c) | `Loops`, `Accumulation`                  | 🟢 Easy    |
+
+</details>
 
 ---
 
 ##  How to Get Started
 
-<details>
-<summary><strong>Click here for instructions on how to run these programs.</strong></summary>
+Ready to run the code? Just follow these simple steps.
 
 1.  **Clone the Repo:**
     ```bash
-    git clone https://github.com/TheTimelessRecall/beginner-c-programs.git
-    cd beginner-c-programs/programs
+    git clone https://github.com/TheTimelessRecall/C-Odyssey.git
+    cd C-Odyssey/programs
     ```
 
 2.  **Compile the Code:** (e.g., `bmi_cal.c`)
     ```bash
     gcc bmi_cal.c -o bmi_calc -lm
     ```
-    > **Note:** The `-lm` flag is for linking the math library, which may be needed for some programs.
+    > **Note:** The `-lm` flag links the math library, which may be needed for some programs.
 
 3.  **Run the Executable:**
     ```bash
     ./bmi_calc
     ```
 
-</details>
-
 ---
 
 ##  Level Up Your C Skills
 
-Check out these awesome resources.
+Check out these great resources to keep going on your journey.
 
 <details>
-<summary><strong>Expand for learning resources.</strong></summary>
+<summary><strong>Expand for learning resources</strong></summary>
 
 ### Quick Start
 - [**C Programming - GeeksforGeeks**](https://www.geeksforgeeks.org/c-programming-language/)
@@ -117,34 +121,25 @@ Check out these awesome resources.
 
 ---
 
-## Folder Structure
+##  Project Layout
 ```bash
-
-📁 beginner-c-programs/
-├── 📁  programs/  
+📁 C-Odyssey/
+├── 📁 programs/
 │   ├── 📄 bmi_cal.c
-│   ├── 📄 power_of_number.c
-│   └── ... (and so on)       
+│   └── ... (42 more files)
 ├── 📄 LICENSE
 └── 📄 README.md
 ```
 
 ---
 
+
 ##  Contributing
 
-Contributions are welcome! If you have a cool beginner C program, feel free to fork this repo, add your program to the `programs/` folder, and make a pull request. 
-
-Please follow the existing file naming format and keep code beginner-friendly.
-
+Contributions are welcome. If you have a beginner-friendly C program to add, feel free to fork the repo and submit a pull request. Please follow the current code style and naming conventions.
 
 ---
 
-## License
+## 📜 License
 
-This project is licensed under the MIT License.
-See [LICENSE](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/LICENSE) for more info.
-
----
-
-
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/TheTimelessRecall/C-Odyssey/blob/master/LICENSE) file for more details.
