@@ -4,7 +4,7 @@
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="180">
 
-*A curated collection of foundational C programs designed to launch your coding journey. Perfect for students and self-learners alike.*
+*A set of basic C programs to kickstart your coding journey. These are ideal for students and self-learners.*
 
 </div>
 
