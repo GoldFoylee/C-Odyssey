@@ -59,6 +59,10 @@
 | **37** | [Sort Array (Bubble Sort)](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/bubble_sort.c) | Sorting, Arrays | 🟡 Medium |
 | **38** | [Linear Search in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/linear_search.c) | Arrays, Search Logic | 🟢 Easy |
 | **39** | [Binary Search in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/binary_search.c) | Binary Search, Sorted Arrays | 🟡 Medium |
+| **40** | [Find Max Element in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/find_max_in_array.c) | Arrays, Loops, Comparison | 🟢 Easy |
+| **41** | [Find Min Element in Array](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/find_min_in_array.c) | Arrays, Loops, Comparison | 🟢 Easy |
+| **42** | [Sum of Array Elements](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/sum_of_array_elements.c) | Arrays, Loops, Accumulation | 🟢 Easy |
+| **43** | [Sum of N Natural Numbers](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/sum_of_n_natural_numbers.c) | Loops, Accumulation | 🟢 Easy |
 
 
 
