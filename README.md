@@ -1,15 +1,16 @@
-<h1 align="center"> beginner-c-programs</h1>
+<h1 align="center">  C Odyssey: A Beginner's Voyage </h1>
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="180">
 </div>
-<p align="center"><i>A collection of classic C programs for beginners.</i></p>
+<p align="center"><i>A collection of beginner-friendly C programs that build your fundamentals, one problem at a time. Great for students, self-taught devs, and anyone getting started with low-level programming.</i></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/compiled-yes-brightgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/status-maintained-brightgreen?style=for-the-badge" />
 </p>
 
@@ -37,72 +38,78 @@
 | **16** | [Check for Repeated Digits](https://github.com/TheTimelessRecall/beginner-c-programs/blob/master/programs/checking_repetition_of_digit.c) | Arrays, Frequency Tracking        |
 
 ---
----
 
-## How to Run
+##  How to Get Started
 
-**1. Clone the repository**
+<details>
+<summary><strong>Click here for instructions on how to run these programs.</strong></summary>
 
-```bash
-git clone https://github.com/TheTimelessRecall/beginner-c-programs.git
-cd beginner-c-programs
-```
+1.  **Clone the Repo:**
+    ```bash
+    git clone https://github.com/TheTimelessRecall/beginner-c-programs.git
+    cd beginner-c-programs/programs
+    ```
 
-**2. Navigate to the programs directory**
-```bash
-cd programs
-```
+2.  **Compile the Code:** (e.g., `bmi_cal.c`)
+    ```bash
+    gcc bmi_cal.c -o bmi_calc -lm
+    ```
+    > **Note:** The `-lm` flag is for linking the math library, which may be needed for some programs.
 
-**3. Compile with GCC**
+3.  **Run the Executable:**
+    ```bash
+    ./bmi_calc
+    ```
 
-Choose the program you want to run (e.g., bmi_calc.c).
-```bash
-gcc bmi_calc.c -o bmi_calc
-```
-
-**4. Run the program**
-```bash
-./bmi_calc
-```
-
----
-## Wanna Learn C ?
-
-Here’s a quick list to learn C
-
-### Beginner-Friendly
-
--  [**C Programming - GeeksforGeeks**](https://www.geeksforgeeks.org/c-programming-language/)  
-
--  [**Learn-C.org (Interactive)**](https://www.learn-c.org/)  
+</details>
 
 ---
 
-###  Deep Dive
+##  Level Up Your C Skills
 
--  [**CS50x: Introduction to Computer Science (Harvard)**](https://cs50.harvard.edu/x/)  
+Check out these awesome resources.
 
--  [**The C Programming Language by Kernighan & Ritchie**](https://archive.org/details/The_C_Programming_Language_2nd_Edition)  
+<details>
+<summary><strong>Expand for learning resources.</strong></summary>
 
----
+### Quick Start
+- [**C Programming - GeeksforGeeks**](https://www.geeksforgeeks.org/c-programming-language/)
+- [**Learn-C.org (Interactive)**](https://www.learn-c.org/)
+
+### Deep Dive
+- [**CS50x: Introduction to Computer Science (Harvard)**](https://cs50.harvard.edu/x/)
+- [**The C Programming Language by K&R (The C Bible)**](https://archive.org/details/The_C_Programming_Language_2nd_Edition)
 
 ### Practice Platforms
+- [**LeetCode C Problems**](https://leetcode.com/problemset/all/?difficulty=Easy&status=Not%20Started&tags=c)
+- [**HackerRank C Challenges**](https://www.hackerrank.com/domains/c)
 
--  [**LeetCode C Problems**](https://leetcode.com/problemset/all/?difficulty=Easy&status=Not%20Started&tags=c)  
-
--  [**HackerRank**](https://www.hackerrank.com/domains/c) 
+</details>
 
 ---
+
 ## Folder Structure
 ```bash
-beginner-c-programs/
-├── programs/         
-├── LICENSE
-└── README.md
+
+📁 beginner-c-programs/
+├── 📁  programs/  
+│   ├── 📄 bmi_cal.c
+│   ├── 📄 power_of_number.c
+│   └── ... (and so on)       
+├── 📄 LICENSE
+└── 📄 README.md
 ```
 
 ---
 
+##  Contributing
+
+Contributions are welcome! If you have a cool beginner C program, feel free to fork this repo, add your program to the `programs/` folder, and make a pull request. 
+
+Please follow the existing file naming format and keep code beginner-friendly.
+
+
+---
 
 ## License
 
