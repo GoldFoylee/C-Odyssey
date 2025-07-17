@@ -4,7 +4,7 @@
 
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Logo" width="180">
 
-*A set of basic C programs to kickstart your coding journey. These are ideal for students and self-learners.*
+*A collection of simple C programs to get you started with coding. Best for Students and self-learners.*
 
 
 </div>
