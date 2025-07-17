@@ -6,7 +6,6 @@ SRCDIR = programs
 BUILDDIR = bin
 
 SOURCES = $(wildcard $(SRCDIR)/*.c)
-# Create a list of target executable names
 TARGETS = $(patsubst $(SRCDIR)/%.c,$(BUILDDIR)/%,$(SOURCES))
 
 .PHONY: all clean
